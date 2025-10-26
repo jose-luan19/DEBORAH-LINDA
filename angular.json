@@ -17,6 +17,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "docs",
+            "baseHref": "/DEBORAH-LINDA/",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
