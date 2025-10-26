@@ -25,7 +25,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular app
-        run: npm run build -- --output-path docs --base-href /DEBORAH-LINDA/
+        run: npm run build
 
       # 4️⃣ Commit do diretório docs/ com os arquivos do site
       - name: Deploy to GitHub Pages
